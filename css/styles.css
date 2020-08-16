@@ -157,7 +157,7 @@ table {
 	top: 0px;
 	vertical-align: middle;
 	text-align: center;
-	background: #E5E5E5;
+	background: #C4C4C4;
 }
 
 #mission-title {
@@ -186,4 +186,5 @@ table {
 	font-size: 45px;
 	line-height: 65px;
 	text-align: center;
+	margin-bottom: 150px;
 }
