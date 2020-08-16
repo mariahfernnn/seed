@@ -52,15 +52,17 @@ table {
 	left: 0px;
 	top: 0px;
 	vertical-align: middle;
-	background-repeat: no-repeat;
-    background-position: center center;
 	text-align:center;
 }
 
-.heroimg{
+#heroimg{
     float: left;
     vertical-align: middle;
 	width: 100%;
+	height: 843px;
+	background-image: url(/img/heroimage.png);
+	background-repeat: no-repeat;
+    background-position: center center;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	filter: brightness(50%);
 }
@@ -75,7 +77,6 @@ table {
 .logo{
 	width: 15%;
 	margin-left: 28%;
-	
 }
 
 .name{
@@ -94,7 +95,6 @@ table {
 	color: #FFFEFE;
 	font-size: 25px;
 	line-height: 35px;
-
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: normal;
@@ -112,59 +112,63 @@ table {
 }
 
 #foodBank {
-	position: relative;
-	left: 0px;
-	top: 0px;
+	float: left;
+	width: 1440px;
+	height: 573px;
+	left: -1px;
+	top: 843px;
 	vertical-align: middle;
 	text-align: center;
-	background: #E5E5E5;
+	background-color: #E5E5E5;
 }
 
 #question {
 	position: absolute;
-	width: 571px;
+	width: 100%;
 	height: 85px;
-	left: 444px;
 	top: 974px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 72px;
 	line-height: 84px;
-	text-align: center;
 	color: #000000;
 }
 
-#statistic {
+#statistic {	
 	position: absolute;
-	width: 889px;
 	height: 106px;
-	left: 275px;
 	top: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10%;
+	padding-right: 10%;
+
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 45px;
 	line-height: 65px;
-	text-align: center;
 	color: #000000;
+	text-align: center;
 	margin-bottom: 150px;
 }
 
-#mission {
-	position: relative;
+ #mission {
+	float: left;
+	width: 100%;
+	height: 610px;
 	left: 0px;
-	top: 0px;
+	top: 1416px;
 	vertical-align: middle;
 	text-align: center;
-	background: #C4C4C4;
+	background-color: #C4C4C4;
 }
 
 #mission-title {
 	position: absolute;
-	width: 469px;
+	width: 100%;
 	height: 85px;
-	left: 495px;
 	top: 1537px;
 	font-family: Roboto;
 	font-style: normal;
@@ -176,10 +180,12 @@ table {
 
 #what-we-do {
 	position: absolute;
-	width: 945px;
 	height: 184px;
-	left: 247px;
 	top: 1666px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10%;
+	padding-right: 10%;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
