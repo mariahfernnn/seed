@@ -20,7 +20,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -45,4 +44,153 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+
+#hero{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	vertical-align: middle;
+	text-align:center;
+}
+
+#heroimg{
+    float: left;
+    vertical-align: middle;
+	width: 100%;
+	height: 843px;
+	background-image: url(/img/heroimage.png);
+	background-repeat: no-repeat;
+    background-position: center center;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	filter: brightness(50%);
+}
+
+#heroinfo{
+	position: absolute;
+    left: 10%;
+    top: 150px;
+    width: 80%;
+}
+
+.logo{
+	width: 15%;
+	margin-left: 28%;
+}
+
+.name{
+	margin-top: -8%;
+	width: 100%;
+	font-family: 'Rounded Mplus 1c', sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 150px;
+	line-height: 297px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.oneliner{
+	color: #FFFEFE;
+	font-size: 25px;
+	line-height: 35px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+}
+
+.joinUs{
+	border: none;
+	text-decoration-style: none;
+	margin-top: 4%;
+	margin-bottom: 5%;
+	padding: 10px 30px 10px 30px;
+	background: #219317;
+	border-radius: 3px;
+	color: white;
+}
+
+#foodBank {
+	float: left;
+	width: 1440px;
+	height: 573px;
+	left: -1px;
+	top: 843px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #E5E5E5;
+}
+
+#question {
+	position: absolute;
+	width: 100%;
+	height: 85px;
+	top: 974px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 84px;
+	color: #000000;
+}
+
+#statistic {	
+	position: absolute;
+	height: 106px;
+	top: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10%;
+	padding-right: 10%;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	line-height: 65px;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+ #mission {
+	float: left;
+	width: 100%;
+	height: 610px;
+	left: 0px;
+	top: 1416px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #C4C4C4;
+}
+
+#mission-title {
+	position: absolute;
+	width: 100%;
+	height: 85px;
+	top: 1537px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+}
+
+#what-we-do {
+	position: absolute;
+	height: 184px;
+	top: 1666px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	line-height: 65px;
+	text-align: center;
+	margin-bottom: 150px;
 }
