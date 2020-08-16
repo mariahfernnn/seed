@@ -117,6 +117,7 @@ table {
 	top: 0px;
 	vertical-align: middle;
 	text-align: center;
+	background: #E5E5E5;
 }
 
 #question {
@@ -147,5 +148,43 @@ table {
 	line-height: 65px;
 	text-align: center;
 	color: #000000;
+	margin-bottom: 150px;
+}
+
+#mission {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	vertical-align: middle;
+	text-align: center;
+	background: #C4C4C4;
+}
+
+#mission-title {
+	position: absolute;
+	width: 469px;
+	height: 85px;
+	left: 495px;
+	top: 1537px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+}
+
+#what-we-do {
+	position: absolute;
+	width: 945px;
+	height: 184px;
+	left: 247px;
+	top: 1666px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	line-height: 65px;
+	text-align: center;
 	margin-bottom: 150px;
 }
