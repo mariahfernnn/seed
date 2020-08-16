@@ -110,3 +110,42 @@ table {
 	border-radius: 3px;
 	color: white;
 }
+
+#foodBank {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#question {
+	position: absolute;
+	width: 571px;
+	height: 85px;
+	left: 444px;
+	top: 974px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	color: #000000;
+}
+
+#statistic {
+	position: absolute;
+	width: 889px;
+	height: 106px;
+	left: 275px;
+	top: 1110px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	line-height: 65px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 150px;
+}
