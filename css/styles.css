@@ -52,15 +52,17 @@ table {
 	left: 0px;
 	top: 0px;
 	vertical-align: middle;
-	background-repeat: no-repeat;
-    background-position: center center;
 	text-align:center;
 }
 
-.heroimg{
+#heroimg{
     float: left;
     vertical-align: middle;
 	width: 100%;
+	height: 843px;
+	background-image: url(../img/heroimage.png);
+	background-repeat: no-repeat;
+    background-position: center center;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	filter: brightness(50%);
 }
@@ -75,7 +77,6 @@ table {
 .logo{
 	width: 15%;
 	margin-left: 28%;
-	
 }
 
 .name{
@@ -94,7 +95,6 @@ table {
 	color: #FFFEFE;
 	font-size: 25px;
 	line-height: 35px;
-
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: normal;
@@ -111,60 +111,68 @@ table {
 	color: white;
 }
 
+/* Food Bank */
+
 #foodBank {
-	position: relative;
-	left: 0px;
-	top: 0px;
+	float: left;
+	width: 1440px;
+	height: 573px;
+	left: -1px;
+	top: 843px;
 	vertical-align: middle;
 	text-align: center;
-	background: #E5E5E5;
+	background-color: #E5E5E5;
 }
 
 #question {
 	position: absolute;
-	width: 571px;
+	width: 100%;
 	height: 85px;
-	left: 444px;
 	top: 974px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 72px;
 	line-height: 84px;
-	text-align: center;
 	color: #000000;
 }
 
-#statistic {
+#statistic {	
 	position: absolute;
-	width: 889px;
 	height: 106px;
-	left: 275px;
 	top: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10%;
+	padding-right: 10%;
+
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 45px;
 	line-height: 65px;
-	text-align: center;
 	color: #000000;
+	text-align: center;
 	margin-bottom: 150px;
 }
 
-#mission {
-	position: relative;
+/* Mission */
+
+ #mission {
+	float: left;
+	width: 100%;
+	height: 610px;
 	left: 0px;
-	top: 0px;
+	top: 1416px;
 	vertical-align: middle;
 	text-align: center;
-	background: #C4C4C4;
+	background-color: #C4C4C4;
 }
 
 #mission-title {
 	position: absolute;
-	width: 469px;
+	width: 100%;
 	height: 85px;
-	left: 495px;
 	top: 1537px;
 	font-family: Roboto;
 	font-style: normal;
@@ -176,10 +184,12 @@ table {
 
 #what-we-do {
 	position: absolute;
-	width: 945px;
 	height: 184px;
-	left: 247px;
 	top: 1666px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10%;
+	padding-right: 10%;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -188,6 +198,7 @@ table {
 	text-align: center;
 	margin-bottom: 150px;
 }
+
 /* Benefits */
 
 #benefits
@@ -305,4 +316,126 @@ table {
 		width: 400px;
 		border-radius: 50px;
 	}
+}
+
+/* Footer */
+
+footer {
+	position: absolute;
+	width: 1440px;
+	height: 372px;
+	left: 0px;
+	top: 3952px;
+	background: #C4C4C4;
+}
+
+#contact {
+	position: absolute;
+	width: 126px;
+	height: 42px;
+	left: 106px;
+	top: 4044px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+}
+
+#follow {
+	position: absolute;
+	width: 156px;
+	height: 42px;
+	left: 106px;
+	top: 4117px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+}
+
+#instagram {
+	position: absolute;
+	width: 145px;
+	height: 26px;
+	left: 90px;
+	top: 4215px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+}
+
+#twitter {
+	position: absolute;
+	width: 145px;
+	height: 26px;
+	left: 234px;
+	top: 4215px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+}
+
+#linkedIn {
+	position: absolute;
+	width: 145px;
+	height: 26px;
+	left: 380px;
+	top: 4215px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+}
+
+#news-title {
+	position: absolute;
+	width: 176px;
+	height: 42px;
+	left: 689px;
+	top: 4044px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+}
+
+#sign-up {
+	position: absolute;
+	width: 508px;
+	height: 38px;
+	left: 689px;
+	top: 4098px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+#email {
+	position: absolute;
+	width: 179px;
+	height: 28px;
+	left: 689px;
+	top: 4159px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	/* border-bottom: 1px solid #000000; */
 }
