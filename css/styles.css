@@ -194,6 +194,7 @@ table {
 	text-align: center;
 	margin-bottom: 150px;
 }
+
 /* Benefits */
 
 #benefits
@@ -312,3 +313,32 @@ table {
 		border-radius: 50px;
 	}
 }
+
+#contact {
+	position: absolute;
+	width: 126px;
+	height: 42px;
+	left: 106px;
+	top: 4044px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+}
+
+#follow {
+	position: absolute;
+	width: 156px;
+	height: 42px;
+	left: 106px;
+	top: 4117px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+}
+
