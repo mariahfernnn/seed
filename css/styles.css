@@ -342,3 +342,84 @@ table {
 	text-align: center;
 }
 
+#instagram {
+	position: absolute;
+	width: 145px;
+	height: 26px;
+	left: 90px;
+	top: 4215px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+}
+
+#twitter {
+	position: absolute;
+	width: 145px;
+	height: 26px;
+	left: 234px;
+	top: 4215px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+}
+
+#linkedIn {
+	position: absolute;
+	width: 145px;
+	height: 26px;
+	left: 380px;
+	top: 4215px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+}
+
+#news-title {
+	position: absolute;
+	width: 176px;
+	height: 42px;
+	left: 689px;
+	top: 4044px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+}
+
+#sign-up {
+	position: absolute;
+	width: 508px;
+	height: 38px;
+	left: 689px;
+	top: 4098px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+#email {
+	position: absolute;
+	width: 179px;
+	height: 28px;
+	left: 689px;
+	top: 4159px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+}
