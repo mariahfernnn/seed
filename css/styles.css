@@ -97,7 +97,7 @@ table {
 	line-height: 35px;
 	font-family: 'Roboto';
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .joinUs{
@@ -115,7 +115,7 @@ table {
 
 #foodBank {
 	float: left;
-	width: 1440px;
+	width: 100%;
 	height: 573px;
 	left: -1px;
 	top: 843px;
@@ -321,23 +321,21 @@ table {
 /* Footer */
 
 footer {
-	position: absolute;
-	width: 1440px;
-	height: 372px;
+	float: left;
+	width: 100%;
+	height: 350px;
 	left: 0px;
-	top: 3952px;
 	background: #C4C4C4;
 }
 
 #contact {
 	position: absolute;
-	width: 126px;
 	height: 42px;
-	left: 106px;
-	top: 4044px;
+	left: 90px;
+	margin-top: 70px;
 	font-family: Roboto;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 36px;
 	line-height: 42px;
 	text-align: center;
@@ -345,13 +343,12 @@ footer {
 
 #follow {
 	position: absolute;
-	width: 156px;
 	height: 42px;
-	left: 106px;
-	top: 4117px;
+	left: 90px;
+	margin-top: 130px;
 	font-family: Roboto;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 36px;
 	line-height: 42px;
 	text-align: center;
@@ -359,52 +356,55 @@ footer {
 
 #instagram {
 	position: absolute;
-	width: 145px;
 	height: 26px;
 	left: 90px;
-	top: 4215px;
+	margin-top: 210px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
 	line-height: 28px;
 	text-align: center;
+	text-decoration: none;
+	color:black;
 }
 
 #twitter {
 	position: absolute;
-	width: 145px;
 	height: 26px;
-	left: 234px;
-	top: 4215px;
+	left: 249px;
+	margin-top: 210px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
 	line-height: 28px;
 	text-align: center;
+	text-decoration: none;
+	color:black;
 }
 
 #linkedIn {
 	position: absolute;
-	width: 145px;
 	height: 26px;
 	left: 380px;
-	top: 4215px;
+	margin-top: 210px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
 	line-height: 28px;
 	text-align: center;
+	text-decoration: none;
+	color: black;
+	
 }
 
 #news-title {
 	position: absolute;
-	width: 176px;
 	height: 42px;
 	left: 689px;
-	top: 4044px;
+	margin-top:70px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
@@ -415,10 +415,9 @@ footer {
 
 #sign-up {
 	position: absolute;
-	width: 508px;
 	height: 38px;
 	left: 689px;
-	top: 4098px;
+	margin-top: 130px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -428,10 +427,9 @@ footer {
 
 #email {
 	position: absolute;
-	width: 179px;
 	height: 28px;
 	left: 689px;
-	top: 4159px;
+	margin-top: 190px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
