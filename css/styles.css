@@ -131,7 +131,7 @@ table {
 	top: 974px;
 	font-family: Roboto;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 72px;
 	line-height: 84px;
 	color: #000000;
@@ -148,7 +148,7 @@ table {
 
 	font-family: Roboto;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 45px;
 	line-height: 65px;
 	color: #000000;
@@ -167,6 +167,7 @@ table {
 	vertical-align: middle;
 	text-align: center;
 	background-color: #C4C4C4;
+	margin-bottom: 5%;
 }
 
 #mission-title {
@@ -176,7 +177,7 @@ table {
 	top: 1537px;
 	font-family: Roboto;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 72px;
 	line-height: 84px;
 	text-align: center;
@@ -192,12 +193,14 @@ table {
 	padding-right: 10%;
 	font-family: Roboto;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 45px;
 	line-height: 65px;
 	text-align: center;
 	margin-bottom: 150px;
 }
+
+
 
 /* Benefits */
 
@@ -208,10 +211,12 @@ table {
 	width: 100%;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .benefitcard
 {
+
 	height: 360px;
 	display: flex;
 	flex-direction: column;
@@ -220,6 +225,7 @@ table {
 	width: 100%;
 	background: linear-gradient(0deg, #F5F1F1, #F5F1F1), linear-gradient(0deg, #FFF7D9, #FFF7D9), linear-gradient(0deg, #FFF7D9, #FFF7D9), #FFF7D9;
 	margin-bottom: 20px;
+
 }
 
 .benefitcard:first-of-type
@@ -251,6 +257,7 @@ table {
 #socialProof
 {
 	display: block;
+	margin-top: 75px;
 }
 
 .socialtest
@@ -258,13 +265,14 @@ table {
 	display: flex;
 	flex-direction: column;	
 	align-items: center;
+	
 }
 
 .socialtest img
 {
 	height: auto;
 	width: 200px;
-	border-radius: 30px;
+	border-radius: 50%;
 	margin-bottom: 20px;
 }
 
@@ -280,6 +288,121 @@ table {
 	text-align: center;	
 	max-width: 400px;
 }
+
+
+/* Footer */
+
+footer {
+	float: left;
+	display: flex;
+	width: 100%;
+	height: 350px;
+	left: 0px;
+	background: #C4C4C4;
+}
+
+
+#contact-container{
+	margin-left: 5%;
+	width: 50%;
+	margin-top: 8%;
+}
+
+#contact {
+	height: 42px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+#follow {
+	margin-top: 15px;
+	height: 42px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+#social-container{
+	margin-top: 30px;
+}
+
+#instagram {
+
+	margin-top: 10px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	text-decoration: none;
+	color:black;
+}
+
+#twitter {
+	margin-left: 5%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	text-decoration: none;
+	color:black;
+}
+
+#linkedIn {
+	margin-left: 5%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	
+}
+
+#newsletter-container{
+	text-align:left;
+	float: right;
+	width: 50%;
+	margin-top: 8%;
+}
+
+#news-title {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+#sign-up {
+	margin-top: 10px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+#email {
+	font-family: Roboto;
+	margin-top: 30px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	/* border-bottom: 1px solid #000000; */
+}
+
 
 @media(min-width: 600px)
 {
@@ -314,126 +437,56 @@ table {
 	.socialtest img 
 	{
 		width: 400px;
-		border-radius: 50px;
+		border-radius: 50%;
 	}
+
 }
 
-/* Footer */
 
-footer {
-	float: left;
-	width: 100%;
-	height: 350px;
-	left: 0px;
-	background: #C4C4C4;
-}
 
-#contact {
-	position: absolute;
-	height: 42px;
-	left: 90px;
-	margin-top: 70px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 36px;
-	line-height: 42px;
-	text-align: center;
-}
+@media(max-width:600px){
+	.logo{
+		position: absolute;
+		top: -20px;
+		width: 30%;
+		left: 45%;
+	}
+	#question{
+		font-size: 45px;
+	}
 
-#follow {
-	position: absolute;
-	height: 42px;
-	left: 90px;
-	margin-top: 130px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 36px;
-	line-height: 42px;
-	text-align: center;
-}
+	#statistic{
+		font-size: 30px;
+		top: 1080px;
+	}
 
-#instagram {
-	position: absolute;
-	height: 26px;
-	left: 90px;
-	margin-top: 210px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 28px;
-	text-align: center;
-	text-decoration: none;
-	color:black;
-}
+	#mission-title{
+		font-size: 45px;
+	}
 
-#twitter {
-	position: absolute;
-	height: 26px;
-	left: 249px;
-	margin-top: 210px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 28px;
-	text-align: center;
-	text-decoration: none;
-	color:black;
-}
+	#what-we-do{
+		font-size: 30px;
+		top:1636px;
+	}
 
-#linkedIn {
-	position: absolute;
-	height: 26px;
-	left: 380px;
-	margin-top: 210px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 28px;
-	text-align: center;
-	text-decoration: none;
-	color: black;
+	footer{
+		display: inline-block;
+		height: auto;
+		width: 100%;
+	}
+
+	#contact-container{
+		margin-left: 10%;
+		width: 90%;
+	}
+	#newsletter-container{
+		float: left;
+		margin-left: 10%;
 	
+	}
+	#email{
+		margin-bottom: 70px;
+	}
+
 }
 
-#news-title {
-	position: absolute;
-	height: 42px;
-	left: 689px;
-	margin-top:70px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 36px;
-	line-height: 42px;
-	text-align: center;
-}
-
-#sign-up {
-	position: absolute;
-	height: 38px;
-	left: 689px;
-	margin-top: 130px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 28px;
-}
-
-#email {
-	position: absolute;
-	height: 28px;
-	left: 689px;
-	margin-top: 190px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 28px;
-	/* border-bottom: 1px solid #000000; */
-}
