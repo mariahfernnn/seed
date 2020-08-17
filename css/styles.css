@@ -169,7 +169,7 @@ html {
   font-family: "Rounded Mplus 1c", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 150px;
+  font-size: 90px;
   line-height: 297px;
   text-align: center;
   color: #ffffff;
@@ -514,6 +514,12 @@ footer {
   .socialtest img {
     width: 400px;
     border-radius: 50%;
+  }
+
+  /* Name */
+
+  .name {
+    font-size: 150px;
   }
 }
 
